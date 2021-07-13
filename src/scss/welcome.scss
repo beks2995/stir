@@ -1,0 +1,27 @@
+.welcome{
+  padding: 200px 0 250px;
+  height: 645px;
+  .welcome_box {
+    width: 100%;
+    height: 196px;
+    margin: 0 auto;
+    .welcome__subtitle {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #FF573D;
+    }
+    .welcome__title{
+      font-family: Roboto,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 52px;
+      text-align: center;
+      color: #191919;
+    }
+  }
+}

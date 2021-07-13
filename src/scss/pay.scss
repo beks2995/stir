@@ -1,0 +1,154 @@
+@mixin subtitle{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  color: #6EE4B5;
+}
+
+.pay{
+  padding: 160px 0;
+  background: #191919;
+  .pay__block{
+
+    .pay__title-box{
+      .pay__logo-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 94px;
+        height: 44px;
+        background: #6EE4B5;
+        border-radius: 63.959px;
+        img{
+
+        }
+
+      }
+      .pay__subtitle{
+        margin-top: 31px;
+        margin-bottom: 8px;
+        text-align: center;
+        @include subtitle;
+      }
+      .pay__title{
+        margin-bottom: 166px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 68px;
+        /* identical to box height, or 106% */
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+    .pay__boxes{
+      display: flex;
+      justify-content: center;
+      .pay__double-box{
+        .pay__box{
+          padding-left: 48px;
+          padding-top: 47px;
+          width: 587px;
+          height: 633px;
+          background: #1D1D1D;
+          border-radius: 16px;
+          margin-left: 20px;
+          margin-bottom: 20px;
+          &:last-child{
+            margin-bottom: 0;
+          }
+          .pay__box-title{
+            @include subtitle;
+          }
+          .pay__box-about{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 24px;
+            /* identical to box height, or 218% */
+            color: #FFFFFF;
+          }
+          .pay__box-img{
+            margin-top: 87px;
+            text-align: center;
+
+            &.second{
+              text-align: center;
+              margin-top: 237px;
+            }
+            &.third{
+              margin-top: 135px;
+            }
+          }
+        }
+      }
+    }
+    .end-soon{
+      display: flex;
+      justify-content: space-around;
+      .soon__title-box{
+        margin-top: 116px;
+        .soon__title{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 40px;
+          line-height: 48px;
+          /* or 120% */
+          color: #FFFFFF;
+        }
+        .soon__subtitle{
+          margin-top: 30px;
+
+          a{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+            /* identical to box height, or 140% */
+            color: #6EE4B5;
+            text-decoration: none;
+            img{
+              margin-left: 12px;
+            }
+          }
+        }
+      }
+      .soon{
+        list-style-type: none;
+        margin-top: 128px;
+        .soon__about-title{
+          margin-bottom: 23px;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 36px;
+          /* identical to box height, or 150% */
+          color: #FFFFFF;
+          text-align: left;
+        }
+        .soon__about{
+          margin-bottom: 11px;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 36px;
+          /* identical to box height, or 150% */
+          color: #FFFFFF;
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

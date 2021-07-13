@@ -1,0 +1,58 @@
+.collectives{
+  padding: 140px 0 603px;
+  background: #2B2A35 url("../img/Collectives/collectives-img.png") bottom -185px center no-repeat;
+  .collectives__Btn{
+    width: 148px;
+    height: 44px;
+    background: #191919;
+    border-radius: 63.959px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+    .collectives__imgBtn{
+      margin-right: 8px;
+    }
+    .collectives__textBtn{
+      font-family: Roboto,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #EDEDED;
+    }
+  }
+  .collectives__subtitle{
+    margin-top: 31px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #6EE4B5;
+  }
+  .collectives__title{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 8px;
+  }
+  .collectives__about{
+    margin-top: 69px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+
+}

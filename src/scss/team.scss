@@ -1,0 +1,82 @@
+.team{
+  .box{
+    padding: 24px;
+    position: relative;
+    .box__profile{
+      padding: 8px 12px 12px 12px;
+      background: #FFFFFF;
+      box-shadow: 0 4px 21px rgba(0, 0, 0, 0.1);
+      border-radius: 3.99744px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .box__title{
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 12px;
+        /* identical to box height, or 100% */
+        color: #191919;
+        margin-bottom: 20px;
+        position: relative;
+        &::before{
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          background: #F7F2E4;
+          bottom: -12px;
+        }
+      }
+      .box__subtitle{
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 10px;
+            color: #191919;
+
+      }
+    }
+    .box__social{
+      background: #FFFFFF;
+      box-shadow: 0 4px 21px rgba(0, 0, 0, 0.1);
+      border-radius: 3.99744px;
+      padding: 10px 12px;
+      position: absolute;
+      right: 0;
+      bottom: 79px;
+      display: flex;
+      flex-direction: column;
+      .box__icon{
+        width: 28px;
+        height: 28px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        margin-bottom: 12px;
+        color: #FFFFFF;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_dark{
+          background: #282828;
+        }
+        &_purple{
+          background: #C13584;
+        }
+        &_blue{
+          background: #1DA1F2;
+        }
+        &_green{
+          background: #009771;
+        }
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

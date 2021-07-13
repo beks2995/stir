@@ -1,0 +1,40 @@
+.leads{
+  margin-top: -40px;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%) left top/ 100% 625px no-repeat,
+  linear-gradient(180deg,rgba(40,40,40,1) 0%,rgba(40,40,40,1) 100%) left 625px/100% no-repeat;
+  .statistic{
+    position: relative;
+    z-index: 1;
+    max-width: 1040px;
+    box-shadow: 0px -16px 64px rgba(43, 42, 53, 0.32);
+    border-radius: 11.9923px;
+    height: 695px;
+    background: url("../img/leads/stat-bg.png");
+    margin: 0 auto;
+    padding: 50px 6px 6px 6px;
+    .box{
+      overflow: auto;
+      height: 100%;
+      &::-webkit-scrollbar {
+        width: 0; /* ширина для вертикального скролла */
+        height: 0; /* высота для горизонтального скролла */
+        background: none; /* Цвет скроллбара */
+      }
+
+      /* ползунок скроллбара */
+      &::-webkit-scrollbar-thumb {
+        background: none; /* Цвет ползунка скроллбара */
+        border-radius: 7em; /* Закругление углов ползунка скроллбара */
+        box-shadow: inset 2px 1px 7px #843EDA; /* Тень ползунка */
+      }
+
+      /* Анимация при наведении на ползунок скроллбара */
+      &::-webkit-scrollbar-thumb:hover {
+        background-color: #24ACF2; /* Цвет ползунка */
+      }
+    }
+  }
+  .slider{
+    height: 800px;
+  }
+}

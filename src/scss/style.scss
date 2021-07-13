@@ -1,0 +1,30 @@
+@import "../lbr/bootstrap/bootstrap-grid.min.css";
+@import "../fonts/roboto/stylesheet.css";
+@import "../lbr/owl/owl.carousel.min.css";
+@import "../lbr/owl/owl.theme.default.min.css";
+@import "../lbr/fontawesome/all.min.css";
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+
+
+  @import "header";
+  @import "home";
+  @import "team";
+  @import "leads";
+  @import "stay";
+  @import "pay";
+  @import "splits";
+  @import "welcome";
+  @import "collectives";
+  @import "effective";
+  @import "security";
+  @import "admin";
+  @import "creators";
+
+
+
+@import "media";

@@ -1,0 +1,125 @@
+.splits{
+  background: #ffffff url("../img/splits/new-split.png") bottom 170px right no-repeat;
+
+  padding: 164px 0;
+
+  .splits__Btn{
+    width: 107px;
+    height: 44px;
+    background: #F7F2E4;
+    border-radius: 63.959px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+
+    .splits__imgBtn{
+      margin-right: 7px;
+    }
+    .splits__textBtn{
+      font-family: Roboto,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: #2B2A35;
+    }
+  }
+  .splits__subtitle{
+    text-align: center;
+    margin-top: 31px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #F6C627;
+  }
+  .splits__title{
+    margin-top: 14px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 68px;
+    text-align: center;
+    color: #191919;
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      width: 260px;
+      height: 145px;
+      bottom: -56px;
+      left: 135px;
+      background: url("../img/splits/arrow-left.png");
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      width: 260px;
+      height: 145px;
+      bottom: -56px;
+      right: 135px;
+      background: url("../img/splits/arrow-right.png");
+    }
+  }
+  .splist__about{
+    width: 433px;
+    height: 144px;
+    margin-top: 202px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #191919;
+  }
+  .splits__list{
+    list-style-type: none;
+    width: 204px;
+    height: 348px;
+    margin-top: 75px;
+
+    .splits__list-title{
+      font-family: Roboto,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 0.559642px;
+      text-transform: uppercase;
+      color: #F6C627;
+      margin-bottom: 22px;
+    }
+     .splits__list-items{
+       width: 127px;
+       height: 36px;
+       background: #FFFFFF;
+       border: 1px solid #EDEDED;
+       box-sizing: border-box;
+       border-radius: 20px;
+       display: flex;
+       text-align: center;
+       margin-bottom: 20px;
+
+       &:first-child{
+
+       }
+       .splits__icon-img{
+         padding: 6px;
+         margin-right: 4px;
+       }
+     }
+    .splits__list-text{
+      font-family: Roboto,sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 24px;
+      color: #191919;
+      margin: 6px 0;
+    }
+  }
+}
