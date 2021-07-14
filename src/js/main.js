@@ -60,4 +60,18 @@ $(document).ready(function(){
             }
         }
     });
+
+    var map;
+
+    DG.then(function () {
+        map = DG.map('map', {
+            center: [42.874186, 74.59212],
+            zoom: 18
+        });
+        var myIcon = DG.icon({
+            iconUrl: 'https://cdn3d.iconscout.com/3d/premium/thumb/location-pin-3100525-2589423.png',
+            iconSize: [50, 40],
+        });
+        DG.marker([42.874277, 74.592072], {icon: myIcon}).addTo(map).bindPopup('Бизнес центр 79, 0 этаж')
+    });
 })
