@@ -25,11 +25,18 @@ $(document).ready(function(){
     });
     const effective= $('#effective')
     effective.owlCarousel({
-        items: 1.2,
         loop: true,
         dots: false,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1.2
+            }
+        }
     });
     const creators= $('#creators')
     creators.owlCarousel({
@@ -37,6 +44,20 @@ $(document).ready(function(){
         loop: true,
         dots: false,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            372: {
+                items: 1.5
+            },
+            535: {
+                items: 2
+            },
+            768: {
+                items: 3
+            }
+        }
     });
 })
